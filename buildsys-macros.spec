@@ -5,7 +5,7 @@ Name:		buildsys-macros
 Summary:	Macros for the CentOS Buildsystem
 # The value for version should match the version of CentOS.
 Version:	7
-Release:	1%{?dist}
+Release:	2%{?dist}
 License:	GPL
 Group:		Development/Buildsystem
 Source:         %{name}-%{version}.tar.gz
