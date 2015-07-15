@@ -4,7 +4,7 @@
 Name:		buildsys-macros
 Summary:	Macros for the CentOS Buildsystem
 # The value for version should match the version of CentOS.
-Version:	7
+Version:	6
 Release:	2%{?dist}
 License:	GPL
 Group:		Development/Buildsystem
@@ -38,10 +38,10 @@ rm -rf $RPM_BUILD_ROOT
 /etc/rpm/macros.checkbuild
 
 %changelog
-* Sun Mar 13 2011 Shad L. Lords <slords@mail.com>
+* Sun Mar 13 2011 ClearFoundation <developer@clearfoundation.com>
 - Update el<ver> to v<ver> to match clearos builds
 
-* Mon Aug 02 2010 Shad L. Lords <slords@mail.com>
+* Mon Aug 02 2010 ClearFoundation <developer@clearfoundation.com>
 - Update el<ver> to v<ver> to match clearos builds
 
 * Mon May 21 2007 Dennis Gilmore <dennis@ausil.us> 
